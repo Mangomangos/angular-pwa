@@ -1,0 +1,6 @@
+<app-add-restaurant (onAddRestaurant)="addRestaurant($event)"></app-add-restaurant>
+<app-restaurant-item 
+    *ngFor="let restaurant of restaurants" 
+    [restaurant]="restaurant"
+    (onDeleteRestaurant)="deleteRestaurant(restaurant)" 
+></app-restaurant-item>

@@ -1,0 +1,9 @@
+<div class="restaurant">
+    <h3>{{restaurant.name}} 
+        <fa-icon class="icon" (click)="(onDelete(restaurant))"[ngStyle]="{'color': 'red'}" [icon]="faTimes"></fa-icon>
+    </h3>
+    <p>{{restaurant.description}} 
+        <fa-icon (click)="(toggleViewAddress(restaurant))" [icon]="faLocationDot"></fa-icon>
+    </p>
+    <p *ngIf="showAddress">{{restaurant.address}}</p>
+</div>
