@@ -1,8 +1,8 @@
 module.exports = {
-	globDirectory: '/src',
+	globDirectory: '/dist',
 	globPatterns: [
 		'**/*.{css,html,ts}'
 	],
-	swDest: 'src/sw.js',
-	swSrc: 'sw.js'
+	swDest: 'dist/angular-blow/sw.js',
+	swSrc: 'dist/angular-blog/sw.js'
 };

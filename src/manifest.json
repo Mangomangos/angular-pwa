@@ -1,0 +1,8 @@
+{
+    "name": "Angular Blog",
+    "short_name:": "blog",
+    "theme_color": "",
+    "background_color": "",
+    "display": "standalone",
+    "icons": []
+}
