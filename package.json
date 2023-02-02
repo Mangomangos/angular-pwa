@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build  && node ./sw-build.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve": "http-server -p 4200 build -c-1"
+    "serve": "http-server -p 4100 dist/angular-blog -c-1"
   },
   "private": true,
   "dependencies": {

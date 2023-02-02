@@ -27,10 +27,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
-            "serviceWorker": false,
-            "ngswConfigPath": "ngsw-config.json"
-          },
+            "scripts": []
+                    },
           "configurations": {
             "production": {
               "budgets": [
